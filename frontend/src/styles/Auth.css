@@ -1,0 +1,28 @@
+.auth-bg {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("https://static.vecteezy.com/system/resources/previews/039/629/893/non_2x/ai-generated-fresh-ripe-fruit-slice-on-wooden-table-healthy-snack-generated-by-ai-free-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.auth-card {
+  width: 400px;
+  padding: 25px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.auth-title {
+  text-align: center;
+  color: #198754;
+  font-weight: bold;
+  margin-bottom: 15px;
+}

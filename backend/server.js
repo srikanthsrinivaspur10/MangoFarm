@@ -10,7 +10,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Auth routes
 app.use("/api/auth", require("./routes/authRoutes"));
+
+// Existing routes
 app.use("/api/products", require("./routes/productRoutes"));
 app.use("/api/orders", require("./routes/orderRoutes"));
 app.use("/api/payment", require("./routes/paymentRoutes"));
